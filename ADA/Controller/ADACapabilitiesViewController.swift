@@ -7,10 +7,21 @@
 
 import UIKit
 
+class AccessibilityDetailsCell: UITableViewCell {
+    
+    @IBOutlet weak var headerTitleLabel: UILabel!
+    @IBOutlet weak var headerDescriptionLabel: UILabel!
+
+    override class func awakeFromNib() {
+        super.awakeFromNib()
+    }
+}
+
 class ADACapabilitiesViewController: UIViewController {
     var adaCapabilites = [
         "Voice Over",
-        "Haptiks"
+        "Haptiks",
+        "Designed with Dynamic Font Sizing"
     ]
 }
 
@@ -35,15 +46,18 @@ extension ADACapabilitiesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
         case 0:
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "iOSAccessibilityDetailsCell") else {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "iOSAccessibilityDetailsCell") as? AccessibilityDetailsCell else {
                 return UITableViewCell()
             }
+            cell.headerTitleLabel.font = OpenSans.bold.of(textStyle: .largeTitle)
+            cell.headerDescriptionLabel.font = OpenSans.regular.of(textStyle: .body)
             return cell
         case 1:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "AccessibilityOptionCell") else {
                 return UITableViewCell()
             }
             cell.textLabel?.text = adaCapabilites[indexPath.row]
+            cell.textLabel?.font = OpenSans.regular.of(textStyle: .body)
             return cell
         default:
             return UITableViewCell()
@@ -57,6 +71,8 @@ extension ADACapabilitiesViewController: UITableViewDelegate {
         switch indexPath.row {
         case 0:
             moveToVoiceOverController()
+        case 2:
+            moveToDynamicFontViewController()
         default:
             break
         }
@@ -64,6 +80,13 @@ extension ADACapabilitiesViewController: UITableViewDelegate {
     
     private func moveToVoiceOverController() {
         let controllerStoryboardID = String(describing: VoiceOverViewController.self)
+        if let controller = storyboard?.instantiateViewController(identifier: controllerStoryboardID) {
+            navigationController?.pushViewController(controller, animated: true)
+        }
+    }
+    
+    private func moveToDynamicFontViewController() {
+        let controllerStoryboardID = String(describing: DynamicFontViewController.self)
         if let controller = storyboard?.instantiateViewController(identifier: controllerStoryboardID) {
             navigationController?.pushViewController(controller, animated: true)
         }
