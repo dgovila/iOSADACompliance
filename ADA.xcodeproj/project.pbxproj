@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30367B6A2696FB8E003DC680 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B602696FB8E003DC680 /* OpenSans-Semibold.ttf */; };
+		30367B6B2696FB8E003DC680 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B612696FB8E003DC680 /* OpenSans-Light.ttf */; };
+		30367B6C2696FB8E003DC680 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B622696FB8E003DC680 /* OpenSans-Italic.ttf */; };
+		30367B6D2696FB8E003DC680 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B632696FB8E003DC680 /* OpenSans-ExtraBold.ttf */; };
+		30367B6E2696FB8E003DC680 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B642696FB8E003DC680 /* OpenSans-LightItalic.ttf */; };
+		30367B6F2696FB8E003DC680 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B652696FB8E003DC680 /* OpenSans-Bold.ttf */; };
+		30367B702696FB8E003DC680 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B662696FB8E003DC680 /* OpenSans-SemiboldItalic.ttf */; };
+		30367B712696FB8E003DC680 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B672696FB8E003DC680 /* OpenSans-ExtraBoldItalic.ttf */; };
+		30367B722696FB8E003DC680 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B682696FB8E003DC680 /* OpenSans-Regular.ttf */; };
+		30367B732696FB8E003DC680 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B692696FB8E003DC680 /* OpenSans-BoldItalic.ttf */; };
+		30367B772696FC56003DC680 /* OpenSans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30367B762696FC56003DC680 /* OpenSans.swift */; };
+		30367B792696FCC8003DC680 /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30367B782696FCC8003DC680 /* FontType.swift */; };
+		30367B7B2696FD73003DC680 /* UIFont+SizeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30367B7A2696FD73003DC680 /* UIFont+SizeTable.swift */; };
+		30367B7F2697057A003DC680 /* DynamicFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30367B7E2697057A003DC680 /* DynamicFontViewController.swift */; };
 		E71B0AFC2616F1B4000DA03A /* VoiceOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71B0AFB2616F1B4000DA03A /* VoiceOverViewController.swift */; };
 		E71B0B132616F574000DA03A /* VoiceOverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71B0B112616F574000DA03A /* VoiceOverModel.swift */; };
 		E71B0B142616F574000DA03A /* VoiceOverData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E71B0B122616F574000DA03A /* VoiceOverData.plist */; };
@@ -39,6 +53,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30367B602696FB8E003DC680 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		30367B612696FB8E003DC680 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		30367B622696FB8E003DC680 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		30367B632696FB8E003DC680 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		30367B642696FB8E003DC680 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		30367B652696FB8E003DC680 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		30367B662696FB8E003DC680 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		30367B672696FB8E003DC680 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		30367B682696FB8E003DC680 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		30367B692696FB8E003DC680 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		30367B762696FC56003DC680 /* OpenSans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSans.swift; sourceTree = "<group>"; };
+		30367B782696FCC8003DC680 /* FontType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
+		30367B7A2696FD73003DC680 /* UIFont+SizeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+SizeTable.swift"; sourceTree = "<group>"; };
+		30367B7E2697057A003DC680 /* DynamicFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFontViewController.swift; sourceTree = "<group>"; };
 		E71B0AFB2616F1B4000DA03A /* VoiceOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverViewController.swift; sourceTree = "<group>"; };
 		E71B0B112616F574000DA03A /* VoiceOverModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceOverModel.swift; sourceTree = "<group>"; };
 		E71B0B122616F574000DA03A /* VoiceOverData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VoiceOverData.plist; sourceTree = "<group>"; };
@@ -84,9 +112,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30367B5E2696FAFE003DC680 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30367B752696FC40003DC680 /* Core */,
+				30367B7C2696FE1D003DC680 /* CustomFont */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		30367B5F2696FB8E003DC680 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				30367B602696FB8E003DC680 /* OpenSans-Semibold.ttf */,
+				30367B612696FB8E003DC680 /* OpenSans-Light.ttf */,
+				30367B622696FB8E003DC680 /* OpenSans-Italic.ttf */,
+				30367B632696FB8E003DC680 /* OpenSans-ExtraBold.ttf */,
+				30367B642696FB8E003DC680 /* OpenSans-LightItalic.ttf */,
+				30367B652696FB8E003DC680 /* OpenSans-Bold.ttf */,
+				30367B662696FB8E003DC680 /* OpenSans-SemiboldItalic.ttf */,
+				30367B672696FB8E003DC680 /* OpenSans-ExtraBoldItalic.ttf */,
+				30367B682696FB8E003DC680 /* OpenSans-Regular.ttf */,
+				30367B692696FB8E003DC680 /* OpenSans-BoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		30367B742696FB95003DC680 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30367B5F2696FB8E003DC680 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30367B752696FC40003DC680 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				30367B782696FCC8003DC680 /* FontType.swift */,
+				30367B7A2696FD73003DC680 /* UIFont+SizeTable.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		30367B7C2696FE1D003DC680 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				30367B762696FC56003DC680 /* OpenSans.swift */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		30367B7D26970551003DC680 /* DynamicFonts */ = {
+			isa = PBXGroup;
+			children = (
+				30367B7E2697057A003DC680 /* DynamicFontViewController.swift */,
+			);
+			path = DynamicFonts;
+			sourceTree = "<group>";
+		};
 		E71B0AF92616F172000DA03A /* Accessibilities */ = {
 			isa = PBXGroup;
 			children = (
+				30367B7D26970551003DC680 /* DynamicFonts */,
+				30367B5E2696FAFE003DC680 /* Fonts */,
 				E71B0B0C2616F53F000DA03A /* Voice Over */,
 			);
 			path = Accessibilities;
@@ -167,6 +256,7 @@
 		E72154FB26108E7B0076C8AC /* ADA */ = {
 			isa = PBXGroup;
 			children = (
+				30367B742696FB95003DC680 /* Resources */,
 				E71B0AFA2616F17F000DA03A /* Controller */,
 				E72154FC26108E7B0076C8AC /* AppDelegate.swift */,
 				E721550226108E7B0076C8AC /* Main.storyboard */,
@@ -299,10 +389,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30367B6B2696FB8E003DC680 /* OpenSans-Light.ttf in Resources */,
 				E721550C26108E7D0076C8AC /* LaunchScreen.storyboard in Resources */,
 				E721550926108E7D0076C8AC /* Assets.xcassets in Resources */,
+				30367B6D2696FB8E003DC680 /* OpenSans-ExtraBold.ttf in Resources */,
 				E71B0B142616F574000DA03A /* VoiceOverData.plist in Resources */,
 				E721550426108E7B0076C8AC /* Main.storyboard in Resources */,
+				30367B6A2696FB8E003DC680 /* OpenSans-Semibold.ttf in Resources */,
+				30367B712696FB8E003DC680 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				30367B6C2696FB8E003DC680 /* OpenSans-Italic.ttf in Resources */,
+				30367B6F2696FB8E003DC680 /* OpenSans-Bold.ttf in Resources */,
+				30367B732696FB8E003DC680 /* OpenSans-BoldItalic.ttf in Resources */,
+				30367B6E2696FB8E003DC680 /* OpenSans-LightItalic.ttf in Resources */,
+				30367B722696FB8E003DC680 /* OpenSans-Regular.ttf in Resources */,
+				30367B702696FB8E003DC680 /* OpenSans-SemiboldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +427,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30367B7B2696FD73003DC680 /* UIFont+SizeTable.swift in Sources */,
 				E721550126108E7B0076C8AC /* LandingViewController.swift in Sources */,
 				E71B0AFC2616F1B4000DA03A /* VoiceOverViewController.swift in Sources */,
+				30367B792696FCC8003DC680 /* FontType.swift in Sources */,
+				30367B772696FC56003DC680 /* OpenSans.swift in Sources */,
 				E7215539261105B20076C8AC /* ADACapabilitiesViewController.swift in Sources */,
 				E71B0B132616F574000DA03A /* VoiceOverModel.swift in Sources */,
+				30367B7F2697057A003DC680 /* DynamicFontViewController.swift in Sources */,
 				E72154FD26108E7B0076C8AC /* AppDelegate.swift in Sources */,
 				E721550726108E7B0076C8AC /* ADA.xcdatamodeld in Sources */,
 			);
