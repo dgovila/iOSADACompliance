@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21294A7426A5E9A20085CF3B /* HapticsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21294A7326A5E9A20085CF3B /* HapticsModel.swift */; };
+		216A4509269CC56F008EF384 /* HapticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A4508269CC56F008EF384 /* HapticsViewController.swift */; };
 		30367B6A2696FB8E003DC680 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B602696FB8E003DC680 /* OpenSans-Semibold.ttf */; };
 		30367B6B2696FB8E003DC680 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B612696FB8E003DC680 /* OpenSans-Light.ttf */; };
 		30367B6C2696FB8E003DC680 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30367B622696FB8E003DC680 /* OpenSans-Italic.ttf */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21294A7326A5E9A20085CF3B /* HapticsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsModel.swift; sourceTree = "<group>"; };
+		216A4508269CC56F008EF384 /* HapticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsViewController.swift; sourceTree = "<group>"; };
 		30367B602696FB8E003DC680 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		30367B612696FB8E003DC680 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		30367B622696FB8E003DC680 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
@@ -112,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216A4504269CC523008EF384 /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				216A4508269CC56F008EF384 /* HapticsViewController.swift */,
+				21294A7326A5E9A20085CF3B /* HapticsModel.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
 		30367B5E2696FAFE003DC680 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 		E71B0AF92616F172000DA03A /* Accessibilities */ = {
 			isa = PBXGroup;
 			children = (
+				216A4504269CC523008EF384 /* Haptics */,
 				30367B7D26970551003DC680 /* DynamicFonts */,
 				30367B5E2696FAFE003DC680 /* Fonts */,
 				E71B0B0C2616F53F000DA03A /* Voice Over */,
@@ -429,6 +443,7 @@
 			files = (
 				30367B7B2696FD73003DC680 /* UIFont+SizeTable.swift in Sources */,
 				E721550126108E7B0076C8AC /* LandingViewController.swift in Sources */,
+				21294A7426A5E9A20085CF3B /* HapticsModel.swift in Sources */,
 				E71B0AFC2616F1B4000DA03A /* VoiceOverViewController.swift in Sources */,
 				30367B792696FCC8003DC680 /* FontType.swift in Sources */,
 				30367B772696FC56003DC680 /* OpenSans.swift in Sources */,
@@ -436,6 +451,7 @@
 				E71B0B132616F574000DA03A /* VoiceOverModel.swift in Sources */,
 				30367B7F2697057A003DC680 /* DynamicFontViewController.swift in Sources */,
 				E72154FD26108E7B0076C8AC /* AppDelegate.swift in Sources */,
+				216A4509269CC56F008EF384 /* HapticsViewController.swift in Sources */,
 				E721550726108E7B0076C8AC /* ADA.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

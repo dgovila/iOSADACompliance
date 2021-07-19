@@ -20,7 +20,7 @@ class AccessibilityDetailsCell: UITableViewCell {
 class ADACapabilitiesViewController: UIViewController {
     var adaCapabilites = [
         "Voice Over",
-        "Haptiks",
+        "Haptics",
         "Designed with Dynamic Font Sizing"
     ]
 }
@@ -71,6 +71,8 @@ extension ADACapabilitiesViewController: UITableViewDelegate {
         switch indexPath.row {
         case 0:
             moveToVoiceOverController()
+        case 1:
+            moveToHapticsViewController()
         case 2:
             moveToDynamicFontViewController()
         default:
@@ -87,6 +89,13 @@ extension ADACapabilitiesViewController: UITableViewDelegate {
     
     private func moveToDynamicFontViewController() {
         let controllerStoryboardID = String(describing: DynamicFontViewController.self)
+        if let controller = storyboard?.instantiateViewController(identifier: controllerStoryboardID) {
+            navigationController?.pushViewController(controller, animated: true)
+        }
+    }
+    
+    private func moveToHapticsViewController() {
+        let controllerStoryboardID = String(describing: HapticsViewController.self)
         if let controller = storyboard?.instantiateViewController(identifier: controllerStoryboardID) {
             navigationController?.pushViewController(controller, animated: true)
         }
