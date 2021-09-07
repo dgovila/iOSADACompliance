@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5kM-Hf-kNQ">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,34 +14,34 @@
             <objects>
                 <viewController id="byP-Jv-ba6" customClass="ADACapabilitiesViewController" customModule="ADA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="91v-je-AyZ">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DVJ-4r-JA9">
-                                <rect key="frame" x="0.0" y="88" width="428" height="804"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="iOSAccessibilityDetailsCell" id="bTw-kL-F7G" customClass="AccessibilityDetailsCell" customModule="ADA" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.333333969116211" width="428" height="106.33333587646484"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="106.33333587646484"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bTw-kL-F7G" id="93M-vS-0ax">
-                                            <rect key="frame" x="0.0" y="0.0" width="428" height="106.33333587646484"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="106.33333587646484"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PEg-QV-Rbt">
-                                                    <rect key="frame" x="20" y="15" width="388" height="76.333333333333329"/>
+                                                    <rect key="frame" x="20" y="15" width="374" height="76.333333333333329"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Un7-oM-pMb">
-                                                            <rect key="frame" x="0.0" y="0.0" width="388" height="76.333333333333329"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="374" height="76.333333333333329"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ADA Accessibility Options in iOS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cL3-rN-Kjx">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="388" height="24"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="iOS offers a range of features to customize the app to make it more accessible." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q11-x5-YBt">
-                                                                    <rect key="frame" x="0.0" y="34" width="388" height="42.333333333333343"/>
+                                                                    <rect key="frame" x="0.0" y="34" width="374" height="42.333333333333343"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -71,10 +71,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AccessibilityOptionCell" rowHeight="46" id="t8k-P5-AeC">
-                                        <rect key="frame" x="0.0" y="130.66666984558105" width="428" height="46"/>
+                                        <rect key="frame" x="0.0" y="134.33333587646484" width="414" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t8k-P5-AeC" id="ueH-zg-9CK">
-                                            <rect key="frame" x="0.0" y="0.0" width="398.33333333333331" height="46"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="382.66666666666669" height="46"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -106,7 +106,7 @@
                 <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" id="5kM-Hf-kNQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oob-Ux-mlW">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -123,29 +123,29 @@
             <objects>
                 <viewController id="GZP-WF-qta" customClass="LandingViewController" customModule="ADA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zMk-L8-Wni">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q5g-EG-oXs">
-                                <rect key="frame" x="0.0" y="88" width="428" height="838"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJj-NN-H0E">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="628"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="628"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iU9-Yj-Gto">
-                                                <rect key="frame" x="20" y="20" width="388" height="508"/>
+                                                <rect key="frame" x="20" y="20" width="374" height="508"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ca5-Tk-RwD">
-                                                        <rect key="frame" x="0.0" y="0.0" width="388" height="134"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="134"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is ADA Compliance?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnL-HS-uJ7">
-                                                                <rect key="frame" x="0.0" y="0.0" width="388" height="24"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kps-BZ-gvo">
-                                                                <rect key="frame" x="0.0" y="29" width="388" height="105"/>
+                                                                <rect key="frame" x="0.0" y="29" width="374" height="105"/>
                                                                 <string key="text">ADA compliance refers to the Americans with Disabilities Act Standards for Accessible Design, which states that all electronic and information technology must be accessible to people with disabilities.</string>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                                 <nil key="textColor"/>
@@ -155,16 +155,16 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QSP-nC-pqt">
-                                                        <rect key="frame" x="0.0" y="154" width="388" height="134"/>
+                                                        <rect key="frame" x="0.0" y="154" width="374" height="134"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who needs to follow this?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhf-6z-Sm8">
-                                                                <rect key="frame" x="0.0" y="0.0" width="388" height="24"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUa-DE-N9l">
-                                                                <rect key="frame" x="0.0" y="29" width="388" height="105"/>
+                                                                <rect key="frame" x="0.0" y="29" width="374" height="105"/>
                                                                 <string key="text">Organizations that need to adhere with ADA requirements mainly include:
 1. State and local government agencies
 2. Businesses that operate for the benefit of the public</string>
@@ -176,16 +176,16 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="U74-cN-XyW">
-                                                        <rect key="frame" x="0.0" y="308" width="388" height="200"/>
+                                                        <rect key="frame" x="0.0" y="308" width="374" height="200"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What happens if the tech isn’t ADA compliant?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRh-jK-Ice">
-                                                                <rect key="frame" x="0.0" y="0.0" width="388" height="48"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="48"/>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msp-A8-Yxn">
-                                                                <rect key="frame" x="0.0" y="53" width="388" height="147"/>
+                                                                <rect key="frame" x="0.0" y="53" width="374" height="147"/>
                                                                 <string key="text">The stakeholder are liable.
 A lawsuit could be filed against the company if people with disabilities cannot access the tech. Even if the business didn’t intend to discriminate or exclude people with disabilities from accessing the tech, liability can be thousands of dollars in lawsuits.</string>
                                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
@@ -208,13 +208,13 @@ A lawsuit could be filed against the company if people with disabilities cannot 
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udo-nw-Qv7">
-                                        <rect key="frame" x="0.0" y="748" width="428" height="90"/>
+                                        <rect key="frame" x="0.0" y="602" width="414" height="90"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f9f-sZ-agK">
-                                                <rect key="frame" x="0.0" y="0.0" width="428" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YG5-3g-ur1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="428" height="60"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                                         <state key="normal" title="ADA's Capabilities in iOS Applications"/>
                                                         <connections>
@@ -277,20 +277,20 @@ A lawsuit could be filed against the company if people with disabilities cannot 
             <objects>
                 <viewController storyboardIdentifier="VoiceOverViewController" id="Qmj-Ek-wvO" userLabel="Voice Over" customClass="VoiceOverViewController" customModule="ADA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="amf-yj-zT0">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slg-YT-Ajj">
-                                <rect key="frame" x="0.0" y="44" width="428" height="882"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XCp-cm-iBO">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="1051.6666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1072.6666666666667"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qK4-Si-K9t">
-                                                <rect key="frame" x="20" y="19.999999999999943" width="388" height="1011.6666666666665"/>
+                                                <rect key="frame" x="20" y="20" width="374" height="1032.6666666666667"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pVc-ML-bKT">
-                                                        <rect key="frame" x="0.0" y="0.0" width="388" height="251.66666666666666"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="272.66666666666669"/>
                                                         <string key="text">With VoiceOver—a gesture-based screen reader—you can use iPhone even if you can't see the screen. VoiceOver gives audible descriptions of what's on your screen.
 
 To Turn on Voice Over:
@@ -303,7 +303,7 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DzU-Wn-KfF">
-                                                        <rect key="frame" x="0.0" y="271.66666666666669" width="388" height="132"/>
+                                                        <rect key="frame" x="0.0" y="292.66666666666669" width="374" height="132"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dish1" translatesAutoresizingMaskIntoConstraints="NO" id="JW6-5w-ffz">
                                                                 <rect key="frame" x="0.0" y="8" width="117" height="116"/>
@@ -316,16 +316,16 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                                 </constraints>
                                                             </imageView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="VW6-3h-mi3">
-                                                                <rect key="frame" x="132" y="5" width="246" height="122"/>
+                                                                <rect key="frame" x="132" y="5" width="232" height="122"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Pineapple Chicken" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDM-ME-0En">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="246" height="45.666666666666664"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="232" height="45.666666666666664"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                         <color key="textColor" red="0.37769753480000001" green="0.38116405840000001" blue="0.38391831339999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍲🍲🍲🍲🍲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSP-0F-7Uj">
-                                                                        <rect key="frame" x="0.0" y="45.666666666666622" width="246" height="76.333333333333314"/>
+                                                                        <rect key="frame" x="0.0" y="45.666666666666622" width="232" height="76.333333333333314"/>
                                                                         <accessibility key="accessibilityConfiguration">
                                                                             <bool key="isElement" value="NO"/>
                                                                         </accessibility>
@@ -347,7 +347,7 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vcS-Wl-1V3">
-                                                        <rect key="frame" x="0.0" y="423.66666666666669" width="388" height="132.00000000000006"/>
+                                                        <rect key="frame" x="0.0" y="444.66666666666669" width="374" height="132.00000000000006"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dish1" translatesAutoresizingMaskIntoConstraints="NO" id="H7z-iF-OCj">
                                                                 <rect key="frame" x="0.0" y="8" width="117" height="116"/>
@@ -360,16 +360,16 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                                 </constraints>
                                                             </imageView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="iuz-5u-sjb">
-                                                                <rect key="frame" x="132" y="5" width="246" height="122"/>
+                                                                <rect key="frame" x="132" y="5" width="232" height="122"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Pineapple Chicken" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv0-iK-QIa">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="246" height="45.666666666666664"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="232" height="45.666666666666664"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                         <color key="textColor" red="0.37769753480000001" green="0.38116405840000001" blue="0.38391831339999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍲🍲🍲🍲🍲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDV-dS-iDk">
-                                                                        <rect key="frame" x="0.0" y="45.666666666666679" width="246" height="76.333333333333314"/>
+                                                                        <rect key="frame" x="0.0" y="45.666666666666679" width="232" height="76.333333333333314"/>
                                                                         <accessibility key="accessibilityConfiguration">
                                                                             <bool key="isElement" value="NO"/>
                                                                         </accessibility>
@@ -392,7 +392,7 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MMq-2I-iUM">
-                                                        <rect key="frame" x="0.0" y="575.66666666666663" width="388" height="132"/>
+                                                        <rect key="frame" x="0.0" y="596.66666666666663" width="374" height="132"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dish1" translatesAutoresizingMaskIntoConstraints="NO" id="1zA-T7-zq0">
                                                                 <rect key="frame" x="0.0" y="8" width="117" height="116"/>
@@ -405,16 +405,16 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                                 </constraints>
                                                             </imageView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ryk-k1-VId">
-                                                                <rect key="frame" x="132" y="5" width="246" height="122"/>
+                                                                <rect key="frame" x="132" y="5" width="232" height="122"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Pineapple Chicken" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WH-ud-s6R">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="246" height="45.666666666666664"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="232" height="45.666666666666664"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                         <color key="textColor" red="0.37769753480000001" green="0.38116405840000001" blue="0.38391831339999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍲🍲🍲🍲🍲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVp-3G-M0F">
-                                                                        <rect key="frame" x="0.0" y="45.666666666666735" width="246" height="76.333333333333314"/>
+                                                                        <rect key="frame" x="0.0" y="45.666666666666735" width="232" height="76.333333333333314"/>
                                                                         <accessibility key="accessibilityConfiguration">
                                                                             <bool key="isElement" value="NO"/>
                                                                         </accessibility>
@@ -437,7 +437,7 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1FL-rU-AzX">
-                                                        <rect key="frame" x="0.0" y="727.66666666666663" width="388" height="132"/>
+                                                        <rect key="frame" x="0.0" y="748.66666666666663" width="374" height="132"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dish1" translatesAutoresizingMaskIntoConstraints="NO" id="Prl-RY-gcm">
                                                                 <rect key="frame" x="0.0" y="8" width="117" height="116"/>
@@ -450,16 +450,16 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                                 </constraints>
                                                             </imageView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="RlD-re-oju">
-                                                                <rect key="frame" x="132" y="5" width="246" height="122"/>
+                                                                <rect key="frame" x="132" y="5" width="232" height="122"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Pineapple Chicken" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7v-IE-9yx">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="246" height="45.666666666666664"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="232" height="45.666666666666664"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                         <color key="textColor" red="0.37769753480000001" green="0.38116405840000001" blue="0.38391831339999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍲🍲🍲🍲🍲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdP-39-cgg">
-                                                                        <rect key="frame" x="0.0" y="45.666666666666735" width="246" height="76.333333333333314"/>
+                                                                        <rect key="frame" x="0.0" y="45.666666666666735" width="232" height="76.333333333333314"/>
                                                                         <accessibility key="accessibilityConfiguration">
                                                                             <bool key="isElement" value="NO"/>
                                                                         </accessibility>
@@ -482,7 +482,7 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktt-bI-M03">
-                                                        <rect key="frame" x="0.0" y="879.66666666666663" width="388" height="132"/>
+                                                        <rect key="frame" x="0.0" y="900.66666666666663" width="374" height="131.99999999999989"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dish1" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-qo-YQ7">
                                                                 <rect key="frame" x="0.0" y="8" width="117" height="116"/>
@@ -495,16 +495,16 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
                                                                 </constraints>
                                                             </imageView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="BRP-ru-a9f">
-                                                                <rect key="frame" x="132" y="5" width="246" height="122"/>
+                                                                <rect key="frame" x="132" y="5" width="232" height="122"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baked Pineapple Chicken" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4J2-Yw-KYd">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="246" height="45.666666666666664"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="232" height="45.666666666666664"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                         <color key="textColor" red="0.37769753480000001" green="0.38116405840000001" blue="0.38391831339999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🍲🍲🍲🍲🍲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8m6-y9-SqC">
-                                                                        <rect key="frame" x="0.0" y="45.666666666666735" width="246" height="76.333333333333314"/>
+                                                                        <rect key="frame" x="0.0" y="45.666666666666735" width="232" height="76.333333333333314"/>
                                                                         <accessibility key="accessibilityConfiguration">
                                                                             <bool key="isElement" value="NO"/>
                                                                         </accessibility>
@@ -584,26 +584,26 @@ Also refer the code in `VoiceOverViewController` to understand code implementati
             </objects>
             <point key="canvasLocation" x="3404" y="88"/>
         </scene>
-        <!--Voice Over-->
+        <!--Dynamic Font-->
         <scene sceneID="FY3-ep-MzH">
             <objects>
-                <viewController storyboardIdentifier="DynamicFontViewController" id="NGE-ia-RPn" userLabel="Voice Over" customClass="DynamicFontViewController" customModule="ADA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DynamicFontViewController" id="NGE-ia-RPn" userLabel="Dynamic Font" customClass="DynamicFontViewController" customModule="ADA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lhY-PL-Zj9">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F20-c7-v31">
-                                <rect key="frame" x="0.0" y="44" width="428" height="882"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HjP-qB-pgy">
-                                        <rect key="frame" x="0.0" y="0.0" width="428" height="1151.6666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1151.6666666666667"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kQv-E1-DS6">
-                                                <rect key="frame" x="20" y="20" width="388" height="1111.6666666666667"/>
+                                                <rect key="frame" x="20" y="20" width="374" height="1111.6666666666667"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tab-sK-XbR">
-                                                        <rect key="frame" x="0.0" y="0.0" width="388" height="1111.6666666666667"/>
-                                                        <mutableString key="text">With your application using dynamic font size. You can utilize systems dynamic font capability to render your applications font in multiple variants like
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="1111.6666666666667"/>
+                                                        <string key="text">With your application using dynamic font size. You can utilize systems dynamic font capability to render your applications font in multiple variants like
 
 
 - ExtraExtraExtraLarge.
@@ -644,7 +644,7 @@ One can use
 label.font = OpenSans.regular.of(size: 13, textStyle: .regular, usesDynamicFont: true)
 
 To dynamically decide whether to go for fixed point size or dynamic size
-</mutableString>
+</string>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -690,7 +690,63 @@ To dynamically decide whether to go for fixed point size or dynamic size
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SLF-p0-DwV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3404" y="88"/>
+            <point key="canvasLocation" x="4050" y="128"/>
+        </scene>
+        <!--Haptics View Controller-->
+        <scene sceneID="hHz-UM-YVN">
+            <objects>
+                <viewController storyboardIdentifier="HapticsViewController" id="VDC-pQ-7NI" customClass="HapticsViewController" customModule="ADA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HD3-Rc-QhG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="baE-pK-zed">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vra-mf-65I">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="f6k-Sc-HUP">
+                                                <rect key="frame" x="30" y="40" width="354" height="656"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="f6k-Sc-HUP" firstAttribute="top" secondItem="Vra-mf-65I" secondAttribute="top" constant="40" id="Hcm-WD-j8x"/>
+                                            <constraint firstAttribute="trailing" secondItem="f6k-Sc-HUP" secondAttribute="trailing" constant="30" id="aU8-7y-2PL"/>
+                                            <constraint firstAttribute="bottom" secondItem="f6k-Sc-HUP" secondAttribute="bottom" constant="40" id="bIQ-Xj-v4O"/>
+                                            <constraint firstItem="f6k-Sc-HUP" firstAttribute="leading" secondItem="Vra-mf-65I" secondAttribute="leading" constant="30" id="kwY-k9-G8K"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Vra-mf-65I" secondAttribute="bottom" id="2rW-N7-395"/>
+                                    <constraint firstItem="Vra-mf-65I" firstAttribute="top" secondItem="baE-pK-zed" secondAttribute="top" id="74o-23-iGc"/>
+                                    <constraint firstItem="Vra-mf-65I" firstAttribute="leading" secondItem="baE-pK-zed" secondAttribute="leading" id="MKY-L0-In2"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vra-mf-65I" secondAttribute="trailing" id="PKS-Ac-hag"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="5Tw-JK-AMJ"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="r3i-sH-dWC"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yGd-gJ-kiB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="baE-pK-zed" firstAttribute="bottom" secondItem="yGd-gJ-kiB" secondAttribute="bottom" id="6CL-28-UeS"/>
+                            <constraint firstItem="baE-pK-zed" firstAttribute="top" secondItem="yGd-gJ-kiB" secondAttribute="top" id="FZt-Wo-qpl"/>
+                            <constraint firstItem="baE-pK-zed" firstAttribute="trailing" secondItem="yGd-gJ-kiB" secondAttribute="trailing" id="OpW-D6-37C"/>
+                            <constraint firstItem="baE-pK-zed" firstAttribute="leading" secondItem="yGd-gJ-kiB" secondAttribute="leading" id="WIZ-qZ-OZv"/>
+                            <constraint firstItem="Vra-mf-65I" firstAttribute="height" secondItem="HD3-Rc-QhG" secondAttribute="height" priority="250" id="eIG-A6-CRv"/>
+                            <constraint firstItem="Vra-mf-65I" firstAttribute="width" secondItem="HD3-Rc-QhG" secondAttribute="width" id="xJR-lX-CFZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stackView" destination="f6k-Sc-HUP" id="v3n-Tm-jQH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f60-tX-dD7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4956.521739130435" y="109.23913043478262"/>
         </scene>
     </scenes>
     <resources>
